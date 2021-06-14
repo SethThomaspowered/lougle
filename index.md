@@ -2,7 +2,7 @@
 ### Select from available libraries:
 - [211 Eline Rd](211_eline_rd.html)
 - [Reservoir Park](reservoir_park.html) 
-- [Crosby Park](crosby_park.html)
+- [Crosby Park](crosby_park.md)
 - [Hal Warheim Park](hal_warheim_park.html)
 
 `def positive_self_talk():
