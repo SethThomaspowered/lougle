@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Louisville Little Library Database
 
 You can use the [editor on GitHub](https://github.com/SethThomaspowered/lougle/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
