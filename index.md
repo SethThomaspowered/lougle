@@ -13,3 +13,6 @@
 - [Hite](hite.md)
 - [Bloom Elementary](bloom_elementary.md)
 - [Rock Creek Academy](rock_creek_academy.md)
+
+
+[Little Library Dashboard](https://public.tableau.com/app/profile/seth.thomas5548/viz/LittleLibrary/Dashboard1)
