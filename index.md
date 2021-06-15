@@ -8,7 +8,7 @@
 - [Wellington](wellington.md)
 - [Burnett & Texas](burnett_texas.md)
 - [1805 Windsor Place](windsorpl.md)
-- [1103 Charles St](charles_st.md)
+- [1103 Charles St](charlesst.md)
 - [Chenoweth Elementary](chenoweth_elementary.md)
 - [Hite](hite.md)
 - [Bloom Elementary](bloom_elementary.md)
