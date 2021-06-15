@@ -64,3 +64,5 @@
 |The Slippery Slope|	Lemony Snicket|
 |The Austere Academy|	Lemony Snicket|
 |Afternoon on the Amazon|	Mary Pope Osborne|
+
+[Back to main page](index.md)
