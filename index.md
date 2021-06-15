@@ -5,4 +5,11 @@
 - [Crosby Park](crosby_park.md)
 - [Hal Warheim Park](hal_warheim_park.md)
 - [Field Elementary School](field_elementary.md)
-- 
+- [Wellington](wellington.md)
+- [Burnett & Texas](burnett_texas.md)
+- [1805 Windsor Place](windsorpl.md)
+- [1103 Charles St](charles_st.md)
+- [Chenoweth Elementary](chenoweth_elementary.md)
+- [Hite](hite.md)
+- [Bloom Elementary](bloom_elementary.md)
+- [Rock Creek Academy](rock_creek_academy.md)
