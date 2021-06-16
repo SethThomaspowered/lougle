@@ -1,6 +1,6 @@
 ## Welcome to Louisville Little Library Database
 [Little Library Dashboard](https://public.tableau.com/app/profile/seth.thomas5548/viz/LittleLibrary/Dashboard1)
-
+[Little Library Search Page](https://public.tableau.com/app/profile/seth.thomas5546/viz/LittleLibrary/Dashboard2)
 ### Select from available libraries:
 - [Reservoir Park](reservoir_park.md) 
 - [Crosby Park](crosby_park.md)
