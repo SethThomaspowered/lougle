@@ -7,5 +7,6 @@
 - [Chimera Brewing Co](https://www.chimerabrewing.com/)
 - [Flora Kitchenette](https://www.floravegankitchen.com/)
 - [Half Peach Bakery](https://www.halfpeachbakery.com/)
+- [Rawnaissance](https://www.rawd2go.com/)
 - [Shahar](https://www.shaharcafe.com/)
 - [Vgrits](https://www.vgrits.com/)
