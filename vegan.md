@@ -2,6 +2,8 @@
 
 ### Your Hookup for vegan food in the Louisville Kentucky area. 
 
+[Click here to search multiple locations for food](https://public.tableau.com/app/profile/seth.thomas5548/viz/LouisvlleVeganLookup/VeganFoodLookup)
+
 #### Vegan Restaurants
 
 - [Annie May's Sweet Cafe](https://www.anniemayssweetcafe.com/)
