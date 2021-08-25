@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Little Libraries of Kentuckiana</title>
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+  <script src='libraryfinder.js' defer></script>
+  <title>Little Libraries</title>
+<head>
+<body>
+	<div id='app'>
+		<h1 text-align= 'center'>Missing Libraries</h1>
+		<div class="book">
+			<table>
+			<thead><td>Library</td><td>Street Address</td><td>Zip Code</td></thead>
+			<div>
+			<tr v-for="library in libraries" :key='library.id'>
+				<td>{{ library.libraryName }}</td>
+				<td>{{ library.address }}</td>
+				<td>{{ library.zipCode }}</td>
+				
+          </tr>
+		  </table>
+		  </div>
+	</div>
+</body>
+</html>
