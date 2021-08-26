@@ -16,7 +16,7 @@
 			<table>
 			<thead><td>Library</td><td>Street Address</td><td>Zip Code</td><td>Visited</td></thead>
 			<div>
-			<tr v-for="library in libraries" :key='library.id' v-show='library.visited !=true'>
+			<tr v-for="library in libraries" :key='library.id' v-show='library.visited != true'>
 				<td>{{ library.libraryName }}</td>
 				<td>{{ library.address }}</td>
 				<td>{{ library.zipCode }}</td>
