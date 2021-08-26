@@ -50,7 +50,7 @@ const app = new Vue ({
                 {id: 84, libraryName: 'St Williams', address: '1226 W. Oak', zipCode: 40210, visited: false},
                 {id: 85, libraryName: 'Louisville Grows', address: '1641 Portland Ave', zipCode: 40203, visited: false},
                 {id: 86, libraryName: 'Hotel Louisville', address: '120 West Broadway', zipCode: 40202, visited: false},
-                {id: 87, libraryName: 'Freedom Library', address: '1031 E Washington St', zipCode: 40206, visited: false},
+                {id: 87, libraryName: 'Freedom Library', address: '1031 E Washington St', zipCode: 40206, visited: true},
                 {id: 88, libraryName: 'Woodland', address: '11905 Woodland Rd', zipCode: 40223, visited: false},
                 {id: 89, libraryName: 'Lakshmi', address: '12400 Lucas  Lane', zipCode: 40223, visited: false},
                 {id: 90, libraryName: 'Cave Spring', address: '2507 Cave Spring Place', zipCode: 40223, visited: false},
