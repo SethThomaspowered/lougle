@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Little Libraries of Kentuckiana</title>
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+  <script src="./js/components/Tweet.js" defer></script>
+  <script src="./js/libraryBooks.js" defer></script>
+</head>
+<body>
+    <div id='app'></div>
+    <h1>Little Libraries of Kentuckiana</h1>
+    <ul>
+        <li class='image-link'><figure><img src='./static/eline_rd_library.jpg' alt="211 Eline Rd">
+        <figcaption><a href='./libraries/eline_rd.html'>Eline Rd</a></figcaption></figure></li>
+        <li class='image-link'><img src="./static/reservoir_park.jpg" alt="Reservoir Park"></li>
+        <li class="image-link"><img src="./static/field_elementary.jpg" alt="Field Elementary"></li>
+        <li class='image-link'><img src="./static/hal_warheim_park.jpg" alt="Hal Warheim Park"></li>
+        <li class='image-link'><img src="./static/wellington.jpg" alt="Wellington"></li>
+        <li class="image-link"><img src='./static/burnett.jpg' alt='Burnett'></li>
+        <li class="image-link"><img src="./static/windsor_place.jpg" alt='1805 Windsor Place'></li>
+        <li class="image-link"><img src="./static/charles_st_library.jpg" alt="1103 Charles St"></li>
+        <li class="image-link"><img src="./static/chenoweth_run_elementary.jpg" alt="Chenoweth Run Elementary"></li>
+        <li class="image-link"><img src="./static/hite.jpg" alt='Hite'></li>
+    </ul>
+    <LibraryDetail
+            :library.image="selectedImage"
+            @save="saveBook"
+            @cancel="cancelBook"
+            v-if="selectedImage"
+          />
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Little Libraries of Kentuckiana</title>
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+  <script src="./js/components/Tweet.js" defer></script>
+  <script src="./js/libraryBooks.js" defer></script>
+</head>
+<body>
+  <div id="app">
+    <h1>Little Libraries of Kentuckiana</h1>
+    <div class="user">
+      <div class="user-information">
+        <div class="image-container">
+          <img src= './static/charles_st_library.jpg' alt="library picture">
+        </div>
+        <div class="columns">
+          <div class="column is-3">
+            <header class="card-header">
+              <p class="card-header-title">library list</p>
+            </header>
+             <ul class="nav-libraries">
+                <li v-for="library in libraries" :key="library.id">
+                  <a
+                    class="list-item"
+                    @click="selectedLibrary = library"
+                    :class="{ 'is-active': selectedLibrary === library }"
+                    ><span>{{ library.libraryName }}</span></a
+                  >
+                </li>
+              </ul>
+            
+          </div>
+        </div>
+      </div>
+      <div class="user-bio">
+        <em>Address: </em> {{ selectedLibrary.address }}
+      </div>
+    </div>
+    <div>
+      <div class="book">
+        <table>
+          <thead><td>Book Title</td><td>Author Name</td><td>Date Added</td><td>Checked Out</td></thead>
+          <div>
+          <tr v-for="book in books" :key='book.id'v-show='(book.checkedOut != true) && (book.address == selectedLibrary.libraryName)'>
+            <td>{{ book.bookTitle }}</td>
+            <td>{{ book.authorName }}</td>
+            <td>{{ book.dateAdded }}</td>
+            <td><input type="checkbox" v-model='book.checkedOut'></td>
+          </tr>
+          <!-- <tr>
+            <td><input type="text" value="book" placeholder="New Book" v-model="newBook.bookTitle" /></td>
+            <td><input type="text" value="author" placeholder="Book Author" v-model="newBook.authorName" /></td>
+            <td>{{ newBook.dateAdded }}</td>
+            <td><input type="checkbox"></td>
+          </tr> -->
+        </div>
+        </table>
+      </div>
+      
+    </div>
+    <div class="settings">
+      <h2>Settings</h2>
+      <label for="libraryname">Library name</label>
+      <input type="text" value="libraryname" placeholder="Library name" v-model="selectedLibrary.libraryName" />
+      <label for="address">Address</label>
+      <textarea value="address" placeholder="Address" v-model="selectedLibrary.address"></textarea>
+      <label for="book">New Book</label>
+      <div class="new-book">
+    <!--   <input type="text" value="book" placeholder="New Book" v-model="newBook.bookTitle" />
+		<input type="text" value="author" placeholder="Book Author" v-model="newBook.authorName" />
+        <button id="addbook" v-on:click="books.push(newBook)">Add Book</button> -->
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
