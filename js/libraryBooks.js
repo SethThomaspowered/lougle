@@ -1121,13 +1121,13 @@ const app= new Vue ({
                 {id: 71, libraryName: 'Wilmar', address: '3806 Wilmar Ave', zipCode: 40218,},
                 {id: 72, libraryName: 'Pemaquid Road', address: '3420 Pemaquid Rd', zipCode: 40218,},
                 {id: 73, libraryName: 'Gardiner View', address: '4210 Gardiner View Ave', zipCode: 40213,},
-                {id: 74, libraryName: 'Klondike', address: '3807 Klondike Lane', zipCode: 40218,},
+                {id: 74, libraryName: 'Klondike', address: '3807 Klondike Lane', zipCode: 40218,},*/
                 {id: 75, libraryName: 'Birdhouse Library', address: '4600 Lynnbrook Dr', zipCode: 40220,},
-                {id: 76, libraryName: 'Lancelot', address: '7600 Lancelot Court', zipCode: 40222,},
+/*                {id: 76, libraryName: 'Lancelot', address: '7600 Lancelot Court', zipCode: 40222,},*/
                 {id: 77, libraryName: 'Southview', address: '701 Southview Dr', zipCode: 40207,},
                 {id: 78, libraryName: 'Santee', address: '227 Santee Path', zipCode: 40207,},
-                {id: 79, libraryName: 'Rio Vista', address: '10 Rio Vista Dr', zipCode: 40207,},
-                {id: 80, libraryName: 'Winton', address: '302 Winton Avenue', zipCode: 40206,},*/
+/*                {id: 79, libraryName: 'Rio Vista', address: '10 Rio Vista Dr', zipCode: 40207,},*/
+                {id: 80, libraryName: 'Winton', address: '302 Winton Avenue', zipCode: 40206,},
                 {id: 81, libraryName: 'Orpington Cottage', address: '3920 Druid Hills Ln', zipCode: 40207,},
 /*                {id: 82, libraryName: 'Brookfield', address: '3905 Brookfield Ave', zipCode: 40207,},
                 {id: 83, libraryName: 'Hadley', address: '517 W Ormsby', zipCode: 40203,},  
