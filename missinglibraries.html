@@ -7,6 +7,11 @@
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
   <script src='libraryfinder.js' defer></script>
+  <script>
+	  function save() {
+		  localStorage.setItem('library.visited', true)
+	  }
+  </script>
   <title>Little Libraries</title>
 <head>
 <body>
@@ -17,6 +22,19 @@
 			<thead><td>Library</td><td>Street Address</td><td>Zip Code</td><td>Visited</td></thead>
 			<div>
 			<tr v-for="library in libraries" :key='library.id' v-show='library.visited != true'>
+				<td>{{ library.libraryName }}</td>
+				<td>{{ library.address }}</td>
+				<td>{{ library.zipCode }}</td>
+				<td><input type="checkbox" v-model='library.visited'></input></td>
+          </tr>
+		  </table>
+		  </div>
+		  <p>Libraries I have visited.</p>
+		  <div class="book">
+			<table>
+			<thead><td>Library</td><td>Street Address</td><td>Zip Code</td><td>Visited</td></thead>
+			<div>
+			<tr v-for="library in libraries" :key='library.id' v-show='library.visited === true'>
 				<td>{{ library.libraryName }}</td>
 				<td>{{ library.address }}</td>
 				<td>{{ library.zipCode }}</td>

@@ -40,7 +40,7 @@ const app = new Vue ({
                 {id: 73, libraryName: 'Gardiner View', address: '4210 Gardiner View Ave', zipCode: 40213, visited: false},
                 {id: 74, libraryName: 'Klondike', address: '3807 Klondike Lane', zipCode: 40218, visited: false},
                 {id: 75, libraryName: 'Birdhouse Library', address: '4600 Lynnbrook Dr', zipCode: 40220, visited: true},
-                {id: 76, libraryName: 'Lancelot', address: '7600 Lancelot Court', zipCode: 40222, visited: false},
+                {id: 76, libraryName: 'Lancelot', address: '7600 Lancelot Court', zipCode: 40222, visited: true},
                 {id: 77, libraryName: 'Southview', address: '701 Southview Dr', zipCode: 40207, visited: true},
                 {id: 78, libraryName: 'Santee', address: '227 Santee Path', zipCode: 40207, visited: true},
                 {id: 79, libraryName: 'Rio Vista', address: '10 Rio Vista Dr', zipCode: 40207, visited: false},
