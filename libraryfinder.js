@@ -32,7 +32,7 @@ const app = new Vue ({
                 {id: 64, libraryName: 'Winkler', address: '1004 Winkler Ave', zipCode: 40208, visited: false},
                 {id: 65, libraryName: 'Winnrose', address: '4304 Winnrose Way', zipCode: 40211, visited: false},
 				{id: 67, libraryName: 'Kirby', address: '3522 Kirby Ln', zipCode: 40299, visited: false},
-                {id: 68, libraryName: "Compton's Book Corner", address: '9220 Auburn Ave', zipCode: 40299, visited: false},
+                {id: 68, libraryName: "Compton's Book Corner", address: '9220 Auburn Ave', zipCode: 40299, visited: true},
                 {id: 69, libraryName: 'Eastside', address: '3401 Eastside Dr', zipCode: 40220, visited: false},
                 {id: 70, libraryName: 'Richland', address: '2225 Richland Ave', zipCode: 40218, visited: false},
                 {id: 71, libraryName: 'Wilmar', address: '3806 Wilmar Ave', zipCode: 40218, visited: false},
