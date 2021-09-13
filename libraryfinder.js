@@ -3,9 +3,9 @@ const app = new Vue ({
 	data() {
 		return {
 			libraries: [
-			{id: 37, libraryName: 'Johnsontown Rd', address: '7201 Johnsontown Rd', zipCode: 40272, visited: false},
-                {id: 38, libraryName: 'Jessamine', address: '5700 Jessamine Ln', zipCode: 40258, visited: false},
-                {id: 39, libraryName: 'Sunlight', address: '10505 Sunlight Ln', zipCode: 40272, visited: false},
+			{id: 37, libraryName: 'Johnsontown Rd', address: '7201 Johnsontown Rd', zipCode: 40272, visited: true},
+                {id: 38, libraryName: 'Jessamine', address: '5700 Jessamine Ln', zipCode: 40258, visited: true},
+                {id: 39, libraryName: 'Sunlight', address: '10505 Sunlight Ln', zipCode: 40272, visited: true},
 				{id: 41, libraryName: 'Minors Lane', address: '8219 Minors Lane', zipCode: 40219, visited: true},
                 {id: 42, libraryName: 'Apple Mill', address: '7209 Apple Mill Dr', zipCode: 40228, visited: false},
                 {id: 43, libraryName: 'Glenmary', address: '10317 Glenmary Farm', zipCode: 40291, visited: false},
