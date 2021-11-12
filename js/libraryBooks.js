@@ -1310,6 +1310,11 @@ const app= new Vue ({
 {id:	1282	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "The 9 Steps to Financial Freedom", authorName: "Suze Orman", dateAdded: "11/11/2021", checkedOut: false,},
 {id:	1282	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "I'll Walk Alone", authorName: "Mary Higgins Clark", dateAdded: "11/11/2021", checkedOut: false,},
 {id:	1282	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "The Myth of the Andalusian Paradise", authorName: "Dario Fernandez-Morera", dateAdded: "11/11/2021", checkedOut: false,},
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1b034f0c8d60ce9f8d79edbf9145a1c8bb21ac80
             ],
             libraries: [
                 {id: 1, libraryName: '211 Eline Rd', address: '211 Eline Rd', zipCode: 40207,},
