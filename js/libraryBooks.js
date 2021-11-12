@@ -3,7 +3,7 @@ const app= new Vue ({
     el: '#app',
     data() { 
         return {
-            selectedLibrary: [{id: 8, libraryName: '1103 Charles St', address: '1103 Charles St', zipCode: 40204,},],
+            selectedLibrary: [{id: 121, libraryName: 'The Liddell Oxford Library', address: '120 Oxford Pl', zipCode: 40207,},],
             books: [
                 {id:	1	,  locationId: 	1	, address: 	'211 Eline Rd'	, bookTitle: 	"Dead End in Norvelt", authorName:	"Jack Gantos"	, dateAdded: 	'5/28/2021'	, checkedOut:  false,},
 {id:	2	,  locationId: 	1	, address: 	'211 Eline Rd'	, bookTitle: 	'Indelible'	, authorName:	'Karin Slaughter', dateAdded: 	'5/28/2021'	, checkedOut:  true,},
@@ -1310,11 +1310,6 @@ const app= new Vue ({
 {id:	1282	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "The 9 Steps to Financial Freedom", authorName: "Suze Orman", dateAdded: "11/11/2021", checkedOut: false,},
 {id:	1282	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "I'll Walk Alone", authorName: "Mary Higgins Clark", dateAdded: "11/11/2021", checkedOut: false,},
 {id:	1282	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "The Myth of the Andalusian Paradise", authorName: "Dario Fernandez-Morera", dateAdded: "11/11/2021", checkedOut: false,},
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 1b034f0c8d60ce9f8d79edbf9145a1c8bb21ac80
             ],
             libraries: [
                 {id: 1, libraryName: '211 Eline Rd', address: '211 Eline Rd', zipCode: 40207,},
