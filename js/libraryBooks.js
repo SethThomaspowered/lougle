@@ -1304,12 +1304,17 @@ const app= new Vue ({
 {id:	1297	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "The Chimney Sweepers Come to Dust", authorName: "Alan Bradley", dateAdded: "11/11/2021", checkedOut: false,},
 {id:	1298	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "Shanghai Girls", authorName: "Lisa See", dateAdded: "11/11/2021", checkedOut: false,},
 {id:	1299	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "The Girl Who Loved Tom Gordon", authorName: "Stephen King", dateAdded: "11/11/2021", checkedOut: false,},
-{id:	1300	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "Scribner", authorName: "Stephen King", dateAdded: "11/11/2021", checkedOut: false,},
+{id:	1300	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "Cell", authorName: "Stephen King", dateAdded: "11/11/2021", checkedOut: false,},
 {id:	1301	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "The Front", authorName: "Patricia Cornwell", dateAdded: "11/11/2021", checkedOut: false,},
 {id:	1302	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "The Last Thing He Told Me", authorName: "Laurie Decker", dateAdded: "11/11/2021", checkedOut: false,},
 {id:	1303	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "The 9 Steps to Financial Freedom", authorName: "Suze Orman", dateAdded: "11/11/2021", checkedOut: false,},
 {id:	1304	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "I'll Walk Alone", authorName: "Mary Higgins Clark", dateAdded: "11/11/2021", checkedOut: false,},
 {id:	1305	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "The Myth of the Andalusian Paradise", authorName: "Dario Fernandez-Morera", dateAdded: "11/11/2021", checkedOut: false,},
+{id:	1306	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "Elmo Says...", authorName: "Sarah Albee", dateAdded: "11/12/2021", checkedOut: false,},
+{id:	1307	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "Doggie", authorName: "Sandra Boyton", dateAdded: "11/13/2021", checkedOut: false,},
+{id:	1308	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "Tending Dandelions", authorName: "Sandra Swenson", dateAdded: "11/13/2021", checkedOut: false,},
+{id:	1309	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "How to Be an AntiRacist", authorName: "Ibram X. Kendi", dateAdded: "11/13/2021", checkedOut: false,},
+
             ],
             libraries: [
                 {id: 1, libraryName: '211 Eline Rd', address: '211 Eline Rd', zipCode: 40207,},
