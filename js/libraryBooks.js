@@ -1314,7 +1314,14 @@ const app= new Vue ({
 {id:	1307	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "Doggie", authorName: "Sandra Boyton", dateAdded: "11/13/2021", checkedOut: false,},
 {id:	1308	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "Tending Dandelions", authorName: "Sandra Swenson", dateAdded: "11/13/2021", checkedOut: false,},
 {id:	1309	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "How to Be an AntiRacist", authorName: "Ibram X. Kendi", dateAdded: "11/13/2021", checkedOut: false,},
-
+{id:	1310	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "Black Sun", authorName: "Rebecca Roanhorse", dateAdded: "11/17/2021", checkedOut: false,},
+{id:	1311	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "Me and Earl and the Dying Girl", authorName: "Jesse Andrews", dateAdded: "11/18/2021", checkedOut: false,},
+{id:	1312	,  locationId: 	121	, address: 	"The Liddell Oxford Library", bookTitle: "Nudge", authorName: "Richard H. Thaler", dateAdded: "11/18/2021", checkedOut: false,},
+{id: 1313, locationId: 121, address: "The Liddell Oxford Library", bookTitle: "Life Goals", authorName: "", dateAdded: "11/18/2021", checkedOut: false,},
+{id: 1314, locationId: 121, address: "The Liddell Oxford Library", bookTitle: "David Smells!", authorName: "David Shannon", dateAdded: "11/19/2021", checkedOut: false,},
+{id: 1314, locationId: 121, address: "The Liddell Oxford Library", bookTitle: "Keeping My City Weird", authorName: "Mary E. Elizabeth", dateAdded: "11/20/2021", checkedOut: false,},
+{id: 1315, locationId: 121, address: "The Liddell Oxford Library", bookTitle: "Make a Trade, Charlie Brown!", authorName: "Charles M. Schulz", dateAdded: "11/20/2021", checkedOut: false,},
+{id: 1316, locationId: 121, address: "The Liddell Oxford Library", bookTitle: "Mickey's Slumber Party", authorName: "Unknown", dateAdded: "11/20/2021", checkedOut: false,},
             ],
             libraries: [
                 {id: 1, libraryName: '211 Eline Rd', address: '211 Eline Rd', zipCode: 40207,},
